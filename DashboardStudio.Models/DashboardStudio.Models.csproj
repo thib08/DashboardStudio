@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Componants\**" />
+    <Compile Remove="Dependencies\**" />
+    <EmbeddedResource Remove="Componants\**" />
+    <EmbeddedResource Remove="Dependencies\**" />
+    <None Remove="Componants\**" />
+    <None Remove="Dependencies\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Components\" />
+    <Folder Include="Terminals\" />
+    <Folder Include="Templates\" />
+  </ItemGroup>
+
+</Project>

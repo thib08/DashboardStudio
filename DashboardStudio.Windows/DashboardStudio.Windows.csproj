@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Media\" />
+    <Folder Include="Power\" />
+    <Folder Include="Processes\" />
+    <Folder Include="System\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardStudio.Contracts\DashboardStudio.Contracts.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Core\DashboardStudio.Core.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Models\DashboardStudio.Models.csproj" />
+  </ItemGroup>
+
+</Project>

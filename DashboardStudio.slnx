@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="DashboardStudio.App/DashboardStudio.App.csproj" Id="1bb600e7-c3d8-4299-ac08-ef67307c80dc" />
+  <Project Path="DashboardStudio.Contracts/DashboardStudio.Contracts.csproj" Id="0e279354-402c-4a39-9ecb-2114fffbc164" />
+  <Project Path="DashboardStudio.Core/DashboardStudio.Core.csproj" Id="0f012f15-edd3-483e-959e-570311e8379e" />
+  <Project Path="DashboardStudio.Data/DashboardStudio.Data.csproj" Id="297697d9-2711-4811-8900-17a3b0607d0f" />
+  <Project Path="DashboardStudio.Infrastructure/DashboardStudio.Infrastructure.csproj" Id="6ce35a81-9334-4e25-80fc-f6f0ac74a924" />
+  <Project Path="DashboardStudio.Models/DashboardStudio.Models.csproj" />
+  <Project Path="DashboardStudio.MSFS/DashboardStudio.MSFS.csproj" Id="247db344-d4cb-451f-bd48-54883a48113f" />
+  <Project Path="DashboardStudio.Network/DashboardStudio.Network.csproj" Id="401826bc-4a6d-4fc1-a213-206dcc9add25" />
+  <Project Path="DashboardStudio.Plugins/DashboardStudio.Plugins.csproj" Id="3e57c1ff-c31b-47f6-8cb6-473695700e50" />
+  <Project Path="DashboardStudio.Windows/DashboardStudio.Windows.csproj" Id="64f1b801-2f50-4a81-bde2-c6c6004c11e5" />
+  <Project Path="DashboardStuidio.Actions/DashboardStudio.Actions.csproj" Id="f4923387-ae4e-453b-bb7d-f47e0a95b34b" />
+</Solution>

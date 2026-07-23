@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\" />
+    <Folder Include="Caching\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Serialization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardStudio.Contracts\DashboardStudio.Contracts.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Models\DashboardStudio.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Discovery\" />
+    <Folder Include="Connection\" />
+    <Folder Include="Authentication\" />
+    <Folder Include="Transfer\" />
+    <Folder Include="Synchronization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardStudio.Contracts\DashboardStudio.Contracts.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Infrastructure\DashboardStudio.Infrastructure.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Models\DashboardStudio.Models.csproj" />
+  </ItemGroup>
+
+</Project>

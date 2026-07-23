@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardStudio.Contracts\DashboardStudio.Contracts.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Core\DashboardStudio.Core.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Data\DashboardStudio.Data.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Infrastructure\DashboardStudio.Infrastructure.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Models\DashboardStudio.Models.csproj" />
+    <ProjectReference Include="..\DashboardStudio.MSFS\DashboardStudio.MSFS.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Network\DashboardStudio.Network.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Plugins\DashboardStudio.Plugins.csproj" />
+    <ProjectReference Include="..\DashboardStudio.Windows\DashboardStudio.Windows.csproj" />
+    <ProjectReference Include="..\DashboardStuidio.Actions\DashboardStudio.Actions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Resources\Styles\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+  </ItemGroup>
+
+</Project>
